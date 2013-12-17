@@ -9,3 +9,4 @@ composer.lock
 /wp-config.php
 .DS_Store
 /nbproject
+wp-config-local.php

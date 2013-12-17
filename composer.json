@@ -5,9 +5,7 @@
         "composer/installers": "~1.0",
         "fancyguy/webroot-installer": "1.0.0",
         "fancyguy/wordpress-monolog": "dev-master",
-        "wpackagist/advanced-custom-fields": "4.*",
-        "wpackagist/posts-to-posts": "1.6.x",
-        "wpackagist/wordpress-seo": "1.4.*"
+        "wpackagist/advanced-custom-fields": "4.*"
     },
     "repositories": [
         {
@@ -22,7 +20,7 @@
                 "version": "3.7.1",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/3.7.1.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/3.8.zip"
                 },
                 "require": {
                     "fancyguy/webroot-installer": "1.0.0"
@@ -31,7 +29,7 @@
         }
     ],
     "extra": {
-        "webroot-dir": "wp",
+        "webroot-dir": "core",
         "webroot-package": "wordpress"
     }
 }
