@@ -3,7 +3,6 @@
 define( 'DB_NAME', 'live_db_name' );
 define( 'DB_USER', 'live_db_user' );
 define( 'DB_PASSWORD', 'live_db_password' );
-define( 'DB_HOST', 'livehost' ); // Probably 'livehost'
 
 define('AUTH_KEY',         '%~vHGS9$ZBLLpC2rV|G:+e/}kR(6X`0+mo>JB|yw4UqnIA473OcwQ$P].jtd68b:');
 define('SECURE_AUTH_KEY',  '@(DU]|LS-)*&Y_h!?.?I2Mq9PT7(]|z{7)gFPXxrCpSH;mp2fAMxt%O<6z#L%^vi');
