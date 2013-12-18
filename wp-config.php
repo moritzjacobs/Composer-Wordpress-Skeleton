@@ -7,16 +7,15 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 // ========================================================
 
 if( stristr( $_SERVER['SERVER_NAME'], "dev" ) ) {
-$wp_env = "local";
+	$wp_env = "local";
 } else if( stristr( $_SERVER['SERVER_NAME'], "local" ) ) {
-$wp_env = "local";
+	$wp_env = "local";
 } else if( stristr( $_SERVER['SERVER_NAME'], "staging" ) ) {
-$wp_env = "staging";
+	$wp_env = "staging";
 } else {
-$wp_env = "live";
+	$wp_env = "live";
 }
 
-define( 'DB_HOST', $_ENV{DATABASE_SERVER} ); // Probably 'livehost'
 define( 'WP_SERVER_ENVIRONMENT', $wp_env );
 
 // =================================================
