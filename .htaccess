@@ -1,10 +1,45 @@
-
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteBase /
+RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.php [L]
 </IfModule>
 # END WordPress
+
+<files wp-config.php>
+order allow,deny
+deny from all
+</files>
+
+<files wordpress.conf>
+order allow,deny
+deny from all
+</files>
+
+<files composer.json>
+order allow,deny
+deny from all
+</files>
+
+<files composer.lock>
+order allow,deny
+deny from all
+</files>
+
+<files readme.html>
+Order allow,deny
+Deny from all
+</files>
+
+<files readme.txt>
+Order allow,deny
+Deny from all
+</files>
+
+<files install.php>
+Order allow,deny
+Deny from all
+</files>
