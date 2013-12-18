@@ -38,8 +38,3 @@ Deny from all
 Order allow,deny
 Deny from all
 </files>
-
-<files install.php>
-Order allow,deny
-Deny from all
-</files>
