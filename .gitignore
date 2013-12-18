@@ -11,3 +11,6 @@ composer.lock
 vendor
 site/plugins
 *.scssc
+advanced-cache.php
+site/cache
+site/w3tc-config
