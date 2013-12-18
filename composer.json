@@ -5,7 +5,16 @@
         "composer/installers": "~1.0",
         "fancyguy/webroot-installer": "1.0.0",
         "fancyguy/wordpress-monolog": "dev-master",
-        "wpackagist/advanced-custom-fields": "4.*"
+        "wpackagist/advanced-custom-fields": "*",
+		"wpackagist/acf-field-date-time-picker": "*",
+		"wpackagist/advanced-custom-fields-limiter-field": "*",
+		"wpackagist/better-wp-security": "*",
+		"wpackagist/p3-profiler": "*",
+		"wpackagist/restricted-site-access": "*",
+		"wpackagist/simple-page-ordering": "*",
+		"wpackagist/w3-total-cache": "*",
+		"wpackagist/debug-bar" : "*",
+		"wpackagist/wp-permalauts": "*"
     },
     "repositories": [
         {
