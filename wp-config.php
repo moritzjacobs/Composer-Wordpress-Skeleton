@@ -1,6 +1,4 @@
 <?php
-/** Enable W3 Total Cache */
-define('WP_CACHE', true); // Added by W3 Total Cache
 
 // ========================================================
 // Figure out environment and load wp-config-* accordingly.
@@ -11,6 +9,8 @@ if( stristr( $_SERVER['SERVER_NAME'], "dev" ) ) {
 } else if( stristr( $_SERVER['SERVER_NAME'], "local" ) ) {
 	$wp_env = "local";
 } else if( stristr( $_SERVER['SERVER_NAME'], "staging" ) ) {
+	$wp_env = "staging";
+} else if( stristr( $_SERVER['SERVER_NAME'], "preview" ) ) {
 	$wp_env = "staging";
 } else {
 	$wp_env = "live";
