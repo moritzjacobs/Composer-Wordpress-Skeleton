@@ -1,3 +1,3 @@
 <?php
 
-header('Location: http://'.$_SERVER['SERVER_NAME'].'/core/admin');
+header('Location: http://'.$_SERVER['SERVER_NAME'].'/core/wp-admin');
