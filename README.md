@@ -5,7 +5,7 @@ This is simply a skeleton repo for a WordPress site, forked from [ADARTA](https:
 ## Short guide:
 1. Clone this git into `htdocs`:  
 `git clone git@github.com:moritzjacobs/Composer-Wordpress-Skeleton.git my-server-root`
-2. Edit `wp-config-local-sample.php` and enter valid db credentials
+2. Edit `wp-config-local-sample.php` and enter valid db credentials, then rename to `wp-config-local.php`
 3. `composer install`
 4. Surf to localhost
 
