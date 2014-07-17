@@ -13,10 +13,5 @@ define('SECURE_AUTH_SALT', 'P]rcXY|+4m/K+fxMA+te7,oAt#-C:s_$|RI-eWl;K`caa<wH77 ,
 define('LOGGED_IN_SALT',   'r]F#&K).Ir)B|MWJkA+64.<({YNL+UQ5Kb7m?XoEmp]>@50}i)<t`dwor$-p+gOL');
 define('NONCE_SALT',       '9t4V~Fi[A:lAq>K2OB61;(: 07<;Al.Et6EVH{+v]^7zL?R*d>`Fs>8rpU8Wbl.D');
 
-// =================================================================
-// Debug mode
-// Debugging? Enable these. Can also enable them in staging-config.php
-// global $wpdb; print_r($wpdb->queries);
-// =================================================================
 define( 'SAVEQUERIES', false );
 define( 'WP_DEBUG', false );

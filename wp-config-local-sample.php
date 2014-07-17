@@ -16,8 +16,8 @@ define('NONCE_SALT',       '9t4V~Fi[A:lAq>K2OB61;(: 07<;Al.Et6EVH{+v]^7zL?R*d>`F
 
 // =================================================================
 // Debug mode
-// Debugging? Enable these. Can also enable them in local-config.php
-// global $wpdb; print_r($wpdb->queries);
 // =================================================================
 define( 'SAVEQUERIES', false );
 define( 'WP_DEBUG', false );
+
+// global $wpdb; print_r($wpdb->queries);
