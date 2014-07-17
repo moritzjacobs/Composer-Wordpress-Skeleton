@@ -49,7 +49,7 @@ define('NONCE_SALT',       '842]Q`d4;$kzebwwy6=+d?k=2:Il-gyQVC!D[Lj2%{)*&dWx[az0
 // Table prefix
 // Change this if you have multiple installs in the same database
 // ==============================================================
-$table_prefix  = 'cwp_';
+$table_prefix  = 'wp_';
 
 // ================================
 // Language
