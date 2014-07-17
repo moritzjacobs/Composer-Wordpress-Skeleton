@@ -1,16 +1,9 @@
-/shared
-/sql-dump-*.sql
-/db-sync
 /vendor
 composer.lock
 .DS_Store
-/nbproject
 /wp-config-local.php
 /core
-vendor
 site/plugins
 *.scssc
 advanced-cache.php
 site/cache
-site/w3tc-config
-site/themes
