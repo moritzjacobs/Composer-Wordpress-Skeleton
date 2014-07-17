@@ -1,3 +1,7 @@
+# Redirect /admin and /login
+RewriteRule ^admin/?$ /core/wp-login.php?redirect_to=/core/wp-admin/ [R,L]
+RewriteRule ^login/?$ /core/wp-login.php [R,L]
+
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -9,6 +13,7 @@ RewriteRule . /index.php [L]
 </IfModule>
 # END WordPress
 
+# Security permissions
 <files wp-config.php>
 order allow,deny
 deny from all
