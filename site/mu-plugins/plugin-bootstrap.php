@@ -15,8 +15,8 @@ class BootstrapPlugins {
 	
 	public function __construct() {
 		
-		add_action('init', function(){
-			require( ABSPATH . 'wp-admin/includes/plugin.php' );
+		add_action('admin_init', function(){
+			require_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 			$plugins = get_plugins();
 			
 			foreach($plugins as $path=>$plugin_data) {
